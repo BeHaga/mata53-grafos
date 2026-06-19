@@ -51,6 +51,57 @@ Os arquivos brutos não estão versionados neste repositório devido ao seu tama
 
 ---
 
+## Tratamento Realizado
+
+Devido ao tamanho do grafo original (3.702.441 vértices e 117.185.083 arestas), optou-se por realizar uma redução baseada nas comunidades disponibilizadas pelo SNAP.
+
+Foi selecionada a maior comunidade presente no arquivo `com-orkut.top5000.cmty.txt`, contendo 4785 vértices.
+
+A partir dela foi construído um subgrafo induzido contendo:
+
+* 4785 vértices
+* 119891 arestas
+
+Esse subgrafo foi utilizado em todas as análises subsequentes.
+
+---
+
+## Resultados da Análise Estrutural
+
+Subgrafo analisado:
+
+- Vértices: 4785
+- Arestas: 119891
+- Grau mínimo: 1
+- Grau máximo: 425
+- Grau médio: 50.11
+- Densidade: 0.01047
+- Componentes conexas: 1
+- Coeficiente médio de clusterização: 0.313
+- Número de triângulos: 1.053.848
+- Diâmetro: 12
+- Raio: 6
+- Comprimento médio dos caminhos: 3.284
+
+Figuras geradas:
+
+- figures/degree_distribution.png
+- figures/degree_distribution_loglog.png
+- figures/subgraph_visualization.png
+
+---
+
+### Notebooks concluídos
+
+* [x] 01_dataset_exploration.ipynb
+* [x] 02_graph_extraction.ipynb
+* [x] 03_structural_analysis.ipynb
+* [ ] 04_algorithms.ipynb
+* [ ] 05_smallworld_powerlaw.ipynb
+* [ ] 06_robustness.ipynb
+
+---
+
 ## Estrutura do Projeto
 
 ```text
