@@ -1,0 +1,19 @@
+# Dados brutos
+data/raw/
+
+# Dados processados grandes
+data/processed/*.edgelist
+data/processed/*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
