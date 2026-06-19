@@ -91,12 +91,35 @@ Figuras geradas:
 
 ---
 
+## Algoritmos Implementados
+
+Os seguintes algoritmos foram implementados e avaliados experimentalmente:
+
+- BFS (Busca em Largura)
+- DFS (Busca em Profundidade)
+- Verificação de Eulerianidade
+- Dijkstra
+- Bellman-Ford
+- Tarjan (Pontos de Articulação)
+- Prim
+- Kruskal
+
+Para cada algoritmo foram medidos:
+
+- Tempo médio
+- Desvio padrão
+- Intervalo de confiança de 95%
+
+O algoritmo Floyd-Warshall não foi executado devido à complexidade O(n³), considerada inviável para o subgrafo analisado.
+
+---
+
 ### Notebooks concluídos
 
 * [x] 01_dataset_exploration.ipynb
 * [x] 02_graph_extraction.ipynb
 * [x] 03_structural_analysis.ipynb
-* [ ] 04_algorithms.ipynb
+* [x] 04_algorithms.ipynb
 * [ ] 05_smallworld_powerlaw.ipynb
 * [ ] 06_robustness.ipynb
 
