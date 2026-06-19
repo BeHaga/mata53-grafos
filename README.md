@@ -140,6 +140,32 @@ A distribuição de graus apresenta comportamento altamente assimétrico, indica
 
 ---
 
+## Robustez Estrutural
+
+Foram realizados dois experimentos de robustez:
+
+### Remoção Aleatória de 5%
+
+Remoção aleatória de 5% dos vértices do subgrafo.
+
+Resultado:
+
+- Maior componente original: 4785 vértices
+- Maior componente após remoção: 4527 vértices
+
+### Remoção dos 5% Vértices Mais Centrais
+
+Remoção dos vértices com maior centralidade de grau.
+
+Resultado:
+
+- Maior componente original: 4785 vértices
+- Maior componente após remoção: 4505 vértices
+
+Observou-se que a rede permaneceu majoritariamente conectada em ambos os cenários, indicando elevada robustez estrutural da comunidade analisada.
+
+---
+
 ### Notebooks concluídos
 
 * [x] 01_dataset_exploration.ipynb
@@ -147,7 +173,7 @@ A distribuição de graus apresenta comportamento altamente assimétrico, indica
 * [x] 03_structural_analysis.ipynb
 * [x] 04_algorithms.ipynb
 * [x] 05_smallworld_powerlaw.ipynb
-* [ ] 06_robustness.ipynb
+* [x] 06_robustness.ipynb
 
 ---
 
