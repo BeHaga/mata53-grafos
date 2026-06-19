@@ -22,7 +22,7 @@ Soma dos dígitos:
 
 Últimos dois dígitos:
 
-73
+73 + 1 = 74
 
 Aplicando a fórmula:
 
