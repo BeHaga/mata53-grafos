@@ -114,13 +114,39 @@ O algoritmo Floyd-Warshall não foi executado devido à complexidade O(n³), con
 
 ---
 
+## Redes Complexas
+
+Foram investigadas duas propriedades clássicas de redes complexas:
+
+### Small-World
+
+Resultados obtidos:
+
+- Clusterização real: 0.313
+- Caminho médio real: 3.284
+- Clusterização aleatória: 0.0105
+- Caminho médio aleatório: 2.575
+- Sigma: 23.42
+
+Como σ > 1, o grafo apresenta forte evidência da propriedade Small-World.
+
+### Lei de Potência
+
+Resultados obtidos:
+
+- Expoente α = 1.313
+
+A distribuição de graus apresenta comportamento altamente assimétrico, indicando a existência de hubs e concentração de conexões em poucos vértices.
+
+---
+
 ### Notebooks concluídos
 
 * [x] 01_dataset_exploration.ipynb
 * [x] 02_graph_extraction.ipynb
 * [x] 03_structural_analysis.ipynb
 * [x] 04_algorithms.ipynb
-* [ ] 05_smallworld_powerlaw.ipynb
+* [x] 05_smallworld_powerlaw.ipynb
 * [ ] 06_robustness.ipynb
 
 ---
